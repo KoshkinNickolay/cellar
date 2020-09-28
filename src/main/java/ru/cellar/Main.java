@@ -62,5 +62,13 @@ public class Main {
             System.out.println(e.getMessage());
         }
 
+        //Рандом
+        CellarRandom cellarRandom = new CellarRandom();
+        cellar = cellarRandom.createJarRandom();
+        cellar.listJarsInCellar();
+
+
+
+
     }
 }
